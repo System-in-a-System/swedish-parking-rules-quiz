@@ -22,7 +22,7 @@
         
         <Button x:Name="sendButton" Content="Send" HorizontalAlignment="Left" VerticalAlignment="Top" Width="80" Margin="460,264,0,0" Height="23" Background="#FFEBEBEB" FontFamily="Segoe Print" IsEnabled="False"/>
         
-        <Button x:Name="startButton" Content="Nu kör vi!" HorizontalAlignment="Left" VerticalAlignment="Top" Width="276" Margin="264,85,0,0" Height="80" Background="#FFB4D1C2" FontFamily="Segoe Print" FontSize="18">
+        <Button x:Name="startButton" Content="Nu kör vi!" HorizontalAlignment="Left" VerticalAlignment="Top" Width="276" Margin="264,85,0,0" Height="80" Background="#FFB4D1C2" FontFamily="Segoe Print" FontSize="18" Click="StartButton_Click">
             <Button.Effect>
                 <DropShadowEffect BlurRadius="20"/>
             </Button.Effect>

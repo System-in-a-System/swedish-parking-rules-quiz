@@ -46,6 +46,17 @@ namespace swedish_parking_rules_quiz
             {"Inom vägområde för allmän väg får fordon parkeras högst ... timmar i följd på vardagar, utom vardag före sön- och helgdag.", "24"},
         };
 
+        // Initialize a random "picker"
+        Random picker = new Random();
 
+        private void StartButton_Click(object sender, RoutedEventArgs e)
+        {
+            // Enable the answer field and the send button
+            answerField.IsEnabled = true;
+            sendButton.IsEnabled = true;
+
+            // Load quiz text to the text field using random picker to pick from the dictionary
+            quizText.Text = dic.ElementAt(picker.Next(0, dic.Count)).Key;
+        }
     }
 }
