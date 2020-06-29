@@ -82,6 +82,7 @@ namespace swedish_parking_rules_quiz
             {
                 answerField.Background = Brushes.ForestGreen;
                 statusLabel.Content = "Correct!";
+                
             }
             else
             {
@@ -90,6 +91,8 @@ namespace swedish_parking_rules_quiz
             }
 
             // Pause to comprehend the feedback
+            sendButton.IsEnabled = false;
+            answerField.IsEnabled = false;
             await Task.Delay(3000);
 
 
@@ -106,7 +109,10 @@ namespace swedish_parking_rules_quiz
             pairID = picker.Next(0, dic.Count);
             quizText.Text = dic.ElementAt(pairID).Key;
 
-
+            // Enable the send button and the answer field
+            sendButton.IsEnabled = true;
+            answerField.IsEnabled = true;
+            
         }
     }
 }
