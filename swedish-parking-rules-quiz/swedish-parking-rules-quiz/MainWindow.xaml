@@ -11,22 +11,27 @@
             <ImageBrush ImageSource="https://howardsykes.mycouncillor.org.uk/files/2019/11/Pollution_street_resized.jpg" Opacity="0.3"></ImageBrush>
         </Grid.Background>
 
-        <TextBlock x:Name="quizText" Background="White" HorizontalAlignment="Left" TextWrapping="Wrap" TextAlignment="Center" Text="" VerticalAlignment="Top" Height="193" Width="524" Margin="136,46,0,0" FontSize="24" FontFamily="Segoe Print" Cursor="Pen">
+        <TextBlock x:Name="quizText" Background="White" HorizontalAlignment="Left" TextWrapping="Wrap" TextAlignment="Center" Padding="15" Text="" VerticalAlignment="Top" Height="193" Width="524" Margin="136,46,0,0" FontSize="18" FontFamily="Segoe Print" Cursor="Arrow">
             <TextBlock.Effect>
                 <DropShadowEffect BlurRadius="20" Opacity="0.5"/>
             </TextBlock.Effect>
         </TextBlock>
         
         <TextBox x:Name="answerField" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="131" Margin="324,264,0,0" IsEnabled="False"/>
-        <Label Content="Answer:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="264,261,0,0" FontFamily="Segoe Print"/>
+        <Label Content="Svar:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="264,261,0,0" FontFamily="Segoe Print"/>
+
+        <Button x:Name="sendButton" Content="Skicka" HorizontalAlignment="Left" VerticalAlignment="Top" Width="80" Margin="460,264,0,0" Height="23" Background="#FFEBEBEB" FontFamily="Segoe Print" IsEnabled="False" Click="SendButton_Click"/>
         
-        <Button x:Name="sendButton" Content="Send" HorizontalAlignment="Left" VerticalAlignment="Top" Width="80" Margin="460,264,0,0" Height="23" Background="#FFEBEBEB" FontFamily="Segoe Print" IsEnabled="False"/>
+        <Label x:Name="statusLabel" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="328,287,0,0" Width="212" FontSize="10" Height="23" FontFamily="Segoe Print"/>
+        
         
         <Button x:Name="startButton" Content="Nu kör vi!" HorizontalAlignment="Left" VerticalAlignment="Top" Width="276" Margin="264,85,0,0" Height="80" Background="#FFB4D1C2" FontFamily="Segoe Print" FontSize="18" Click="StartButton_Click">
             <Button.Effect>
                 <DropShadowEffect BlurRadius="20"/>
             </Button.Effect>
         </Button>
+        
+        
 
     </Grid>
 </Window>
