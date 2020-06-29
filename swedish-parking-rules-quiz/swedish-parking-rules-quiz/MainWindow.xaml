@@ -16,10 +16,17 @@
                 <DropShadowEffect BlurRadius="20" Opacity="0.5"/>
             </TextBlock.Effect>
         </TextBlock>
-        <TextBox x:Name="answerField" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="131" Margin="324,264,0,0"/>
+        
+        <TextBox x:Name="answerField" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="131" Margin="324,264,0,0" IsEnabled="False"/>
         <Label Content="Answer:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="264,261,0,0" FontFamily="Segoe Print"/>
-        <Button HorizontalAlignment="Left" VerticalAlignment="Top" Width="75"/>
-        <Button x:Name="sendButton" Content="Send" HorizontalAlignment="Left" VerticalAlignment="Top" Width="80" Margin="460,264,0,0" Height="23" Background="#FFEBEBEB" FontFamily="Segoe Print"/>
+        
+        <Button x:Name="sendButton" Content="Send" HorizontalAlignment="Left" VerticalAlignment="Top" Width="80" Margin="460,264,0,0" Height="23" Background="#FFEBEBEB" FontFamily="Segoe Print" IsEnabled="False"/>
+        
+        <Button x:Name="startButton" Content="Nu kör vi!" HorizontalAlignment="Left" VerticalAlignment="Top" Width="276" Margin="264,85,0,0" Height="80" Background="#FFB4D1C2" FontFamily="Segoe Print" FontSize="18">
+            <Button.Effect>
+                <DropShadowEffect BlurRadius="20"/>
+            </Button.Effect>
+        </Button>
 
     </Grid>
 </Window>
