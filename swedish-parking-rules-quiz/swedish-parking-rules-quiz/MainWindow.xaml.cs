@@ -24,5 +24,28 @@ namespace swedish_parking_rules_quiz
         {
             InitializeComponent();
         }
+
+        // Initialize a dictionary for quiz text - quiz answer pairs
+        IDictionary<string, string> dic = new Dictionary<string, string>()
+
+        {
+            {"Ett fordon får inte stannas eller parkeras " +
+                "på eller inom ett avstånd av ... meter före ett övergångsställe, en cykelpassage eller en cykelöverfart", "tio"},
+            {"Ett fordon får inte stannas eller parkeras " +
+                "i en vägkorsning eller inom ett avstånd av ... meter från en korsande körbanas närmaste ytterkant", "tio"},
+            {"Ett fordon får inte stannas eller parkeras " +
+                "på eller inom ett avstånd av ... meter före en korsande cykelbana eller gångbana", "tio"},
+            {"Ett fordon får inte stannas eller parkeras " +
+                "längs en heldragen linje som anger gräns mellan körfält, " +
+                "om avståndet mellan fordonet och linjen är mindre än ... meter, " +
+                "såvida inte en streckad linje löper mellan fordonet och den heldragna linjen", "tre"},
+            {"Ett fordon får inte stannas eller parkeras " +
+                "... meter före och fem meter efter märket E22, busshållplats", "tjugo"},
+            {"Ett fordon får inte stannas eller parkeras " +
+                "på en väg inom ett avstånd av ... meter från en plankorsning", "trettio"},
+            {"Inom vägområde för allmän väg får fordon parkeras högst ... timmar i följd på vardagar, utom vardag före sön- och helgdag.", "24"},
+        };
+
+
     }
 }
