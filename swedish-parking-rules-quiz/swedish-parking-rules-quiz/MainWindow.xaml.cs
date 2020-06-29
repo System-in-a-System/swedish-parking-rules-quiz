@@ -30,19 +30,19 @@ namespace swedish_parking_rules_quiz
 
         {
             {"Ett fordon får inte stannas eller parkeras " +
-                "på eller inom ett avstånd av ... meter före ett övergångsställe, en cykelpassage eller en cykelöverfart", "tio"},
+                "på eller inom ett avstånd av ... meter före ett övergångsställe, en cykelpassage eller en cykelöverfart", "10"},
             {"Ett fordon får inte stannas eller parkeras " +
-                "i en vägkorsning eller inom ett avstånd av ... meter från en korsande körbanas närmaste ytterkant", "tio"},
+                "i en vägkorsning eller inom ett avstånd av ... meter från en korsande körbanas närmaste ytterkant", "10"},
             {"Ett fordon får inte stannas eller parkeras " +
-                "på eller inom ett avstånd av ... meter före en korsande cykelbana eller gångbana", "tio"},
+                "på eller inom ett avstånd av ... meter före en korsande cykelbana eller gångbana", "10"},
             {"Ett fordon får inte stannas eller parkeras " +
                 "längs en heldragen linje som anger gräns mellan körfält, " +
                 "om avståndet mellan fordonet och linjen är mindre än ... meter, " +
-                "såvida inte en streckad linje löper mellan fordonet och den heldragna linjen", "tre"},
+                "såvida inte en streckad linje löper mellan fordonet och den heldragna linjen", "3"},
             {"Ett fordon får inte stannas eller parkeras " +
-                "... meter före och fem meter efter märket E22, busshållplats", "tjugo"},
+                "... meter före och fem meter efter märket E22, busshållplats", "20"},
             {"Ett fordon får inte stannas eller parkeras " +
-                "på en väg inom ett avstånd av ... meter från en plankorsning", "trettio"},
+                "på en väg inom ett avstånd av ... meter från en plankorsning", "30"},
             {"Inom vägområde för allmän väg får fordon parkeras högst ... timmar i följd på vardagar, utom vardag före sön- och helgdag.", "24"},
         };
 
