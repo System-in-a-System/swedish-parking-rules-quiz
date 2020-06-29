@@ -5,8 +5,10 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:swedish_parking_rules_quiz"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        
+        Title="SPR Quiz" Height="376.914" Width="800">
+    <Grid Margin="0,0,-0.4,-1.8">
+        <Grid.Background>
+            <ImageBrush ImageSource="https://howardsykes.mycouncillor.org.uk/files/2019/11/Pollution_street_resized.jpg" Opacity="0.3"></ImageBrush>
+        </Grid.Background>
     </Grid>
 </Window>
