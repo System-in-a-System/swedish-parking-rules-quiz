@@ -81,13 +81,13 @@ namespace swedish_parking_rules_quiz
             if (userAnswer == correctAnswer)
             {
                 answerField.Background = Brushes.ForestGreen;
-                statusLabel.Content = "Correct!";
+                statusLabel.Content = "Korrekt!";
                 
             }
             else
             {
                 answerField.Background = Brushes.Red;
-                statusLabel.Content = "Wrong! The correct answe is " + correctAnswer + ".";
+                statusLabel.Content = "Fel! Det rätta svaret är " + correctAnswer + ".";
             }
 
             // Pause to comprehend the feedback
